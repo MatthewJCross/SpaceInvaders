@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\SpaceInvaders\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\engine\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\engine\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\engine\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\engine\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\engine\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\engine\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Renderer.cs",
+              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Engine\\Renderer.cs",
+              "RelativeDocumentMoniker": "SpaceInvaders\\Engine\\Renderer.cs",
+              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Engine\\Renderer.cs*",
+              "RelativeToolTip": "SpaceInvaders\\Engine\\Renderer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T16:03:55.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Engine\\InputManager.cs",
+              "RelativeDocumentMoniker": "SpaceInvaders\\Engine\\InputManager.cs",
+              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Engine\\InputManager.cs",
+              "RelativeToolTip": "SpaceInvaders\\Engine\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T16:03:51.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Engine\\GameLoop.cs",
+              "RelativeDocumentMoniker": "SpaceInvaders\\Engine\\GameLoop.cs",
+              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Engine\\GameLoop.cs",
+              "RelativeToolTip": "SpaceInvaders\\Engine\\GameLoop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T16:03:44.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

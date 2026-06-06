@@ -1,0 +1,53 @@
+﻿<Window x:Class="SpaceInvaders.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceInvaders"
+        mc:Ignorable="d"
+        Title="Space Invaders" Height="720" Width="960" Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="SCORE" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="ScoreText" Text="000000" Foreground="White" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="HI-SCORE" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="HighScoreText" Text="000000" Foreground="White" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="LIVES" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="LivesText" Text="3" Foreground="White" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="WAVE" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="WavesText" Text="1" Foreground="White" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" x:Name="GameHost"/>
+
+        <Grid Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsHitTestVisible="False" Panel.ZIndex="100">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Background="#AA000000" Visibility="Collapsed" x:Name="GameOverPanel">
+                <TextBlock x:Name="GameOverText" Text="GAME OVER" Foreground="Red" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center" TextAlignment="Center"/>
+                <TextBlock x:Name="RestartText" Text="Press ENTER to restart" Foreground="White" FontSize="18" HorizontalAlignment="Center" Margin="0,10,0,0" TextAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
