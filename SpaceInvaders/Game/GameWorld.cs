@@ -198,6 +198,7 @@ namespace SpaceInvaders.Game
                 if (Lives <= 0)
                 {
                     _state = GameState.GameOver;
+                    _ufoLoop.Stop();
                 }
             }
         }
@@ -333,6 +334,7 @@ namespace SpaceInvaders.Game
                     if (Lives <= 0)
                     {
                         _state = GameState.GameOver;
+                        _ufoLoop.Stop();
                     }
                 }
             }

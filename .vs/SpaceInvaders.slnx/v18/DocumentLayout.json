@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\SpaceInvaders\\",
+  "WorkspaceRootPath": "C:\\SpaceInvaders\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|c:\\spaceinvaders\\spaceinvaders\\spaceinvaders.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\spaceinvaders.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|c:\\spaceinvaders\\spaceinvaders\\game\\gameworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\game\\gameworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|c:\\spaceinvaders\\spaceinvaders\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\graphics\\writeablebitmaprenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|c:\\spaceinvaders\\spaceinvaders\\graphics\\writeablebitmaprenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\graphics\\writeablebitmaprenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\graphics\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|c:\\spaceinvaders\\spaceinvaders\\graphics\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\graphics\\irenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\graphics\\drawprimitives.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|c:\\spaceinvaders\\spaceinvaders\\graphics\\drawprimitives.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\graphics\\drawprimitives.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|d:\\projects\\spaceinvaders\\spaceinvaders\\graphics\\colours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|c:\\spaceinvaders\\spaceinvaders\\graphics\\colours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28F6D0E0-5099-D73D-03AB-D5E6FC71BF29}|SpaceInvaders\\SpaceInvaders.csproj|solutionrelative:spaceinvaders\\graphics\\colours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,11 +43,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SpaceInvaders",
+              "DocumentMoniker": "C:\\SpaceInvaders\\SpaceInvaders\\SpaceInvaders.csproj",
+              "RelativeDocumentMoniker": "SpaceInvaders\\SpaceInvaders.csproj",
+              "ToolTip": "C:\\SpaceInvaders\\SpaceInvaders\\SpaceInvaders.csproj",
+              "RelativeToolTip": "SpaceInvaders\\SpaceInvaders.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-07T09:23:41.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameWorld.cs",
+              "DocumentMoniker": "C:\\SpaceInvaders\\SpaceInvaders\\Game\\GameWorld.cs",
+              "RelativeDocumentMoniker": "SpaceInvaders\\Game\\GameWorld.cs",
+              "ToolTip": "C:\\SpaceInvaders\\SpaceInvaders\\Game\\GameWorld.cs*",
+              "RelativeToolTip": "SpaceInvaders\\Game\\GameWorld.cs*",
+              "ViewState": "AgIAAGoBAAAAAAAAAAAewH8BAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T09:20:39.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\SpaceInvaders\\SpaceInvaders\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SpaceInvaders\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "SpaceInvaders\\MainWindow.xaml.cs*",
+              "ToolTip": "C:\\SpaceInvaders\\SpaceInvaders\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SpaceInvaders\\MainWindow.xaml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAgwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-06T16:06:43.756Z",
@@ -47,55 +80,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WriteableBitmapRenderer.cs",
-              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\WriteableBitmapRenderer.cs",
+              "DocumentMoniker": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\WriteableBitmapRenderer.cs",
               "RelativeDocumentMoniker": "SpaceInvaders\\Graphics\\WriteableBitmapRenderer.cs",
-              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\WriteableBitmapRenderer.cs",
+              "ToolTip": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\WriteableBitmapRenderer.cs",
               "RelativeToolTip": "SpaceInvaders\\Graphics\\WriteableBitmapRenderer.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T16:06:21.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRenderer.cs",
-              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\IRenderer.cs",
-              "RelativeDocumentMoniker": "SpaceInvaders\\Graphics\\IRenderer.cs",
-              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\IRenderer.cs",
-              "RelativeToolTip": "SpaceInvaders\\Graphics\\IRenderer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T16:06:18.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DrawPrimitives.cs",
-              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\DrawPrimitives.cs",
-              "RelativeDocumentMoniker": "SpaceInvaders\\Graphics\\DrawPrimitives.cs",
-              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\DrawPrimitives.cs",
-              "RelativeToolTip": "SpaceInvaders\\Graphics\\DrawPrimitives.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T16:06:10.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T16:06:21.228Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IRenderer.cs",
+              "DocumentMoniker": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\IRenderer.cs",
+              "RelativeDocumentMoniker": "SpaceInvaders\\Graphics\\IRenderer.cs",
+              "ToolTip": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\IRenderer.cs",
+              "RelativeToolTip": "SpaceInvaders\\Graphics\\IRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T16:06:18.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DrawPrimitives.cs",
+              "DocumentMoniker": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\DrawPrimitives.cs",
+              "RelativeDocumentMoniker": "SpaceInvaders\\Graphics\\DrawPrimitives.cs",
+              "ToolTip": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\DrawPrimitives.cs",
+              "RelativeToolTip": "SpaceInvaders\\Graphics\\DrawPrimitives.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T16:06:10.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Colours.cs",
-              "DocumentMoniker": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\Colours.cs",
+              "DocumentMoniker": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\Colours.cs",
               "RelativeDocumentMoniker": "SpaceInvaders\\Graphics\\Colours.cs",
-              "ToolTip": "D:\\Projects\\SpaceInvaders\\SpaceInvaders\\Graphics\\Colours.cs",
+              "ToolTip": "C:\\SpaceInvaders\\SpaceInvaders\\Graphics\\Colours.cs",
               "RelativeToolTip": "SpaceInvaders\\Graphics\\Colours.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T16:06:07.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T16:06:07.052Z"
             }
           ]
         }
