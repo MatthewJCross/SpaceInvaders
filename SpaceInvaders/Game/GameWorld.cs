@@ -54,6 +54,8 @@ namespace SpaceInvaders.Game
         private int _marchStep;
         private float _enemyMoveTimer;
 
+        private float _deathPauseTimer;
+
         public GameWorld(IRenderer renderer, AudioEngine audio)
         {
             _audio = audio;
@@ -152,6 +154,12 @@ namespace SpaceInvaders.Game
 
         public void Update(float dt)
         {
+            if (_deathPauseTimer > 0)
+            {
+                _deathPauseTimer -= dt;
+                return;
+            }
+
             if (_state == GameState.GameOver)
             {
                 _gameOverFlashTimer += dt;
@@ -169,9 +177,9 @@ namespace SpaceInvaders.Game
             UpdateEnemyShooting(dt);
             UpdateEnemyBullets(dt);
 
-            HandleCollisions();
-
             UpdateUfo(dt);
+
+            HandleCollisions();
 
             CheckLoseCondition();
             
@@ -198,8 +206,12 @@ namespace SpaceInvaders.Game
                 if (Lives <= 0)
                 {
                     _state = GameState.GameOver;
-                    _ufoLoop.Stop();
+                    if (_ufoLoop is not null)
+                        _ufoLoop.Stop();
                 }
+
+                ClearEnemyBullets();
+                StartDeathPause();
             }
         }
 
@@ -344,9 +356,12 @@ namespace SpaceInvaders.Game
         {
             foreach (var bullet in _playerBullets)
             {
+                if (!bullet.Alive)
+                    continue;
+
                 foreach (var shield in _shields)
                 {
-                    if (Collision.IntersectsRect(bullet.X, bullet.Y, bullet.Width, bullet.Height, shield.X, shield.Y, 24, 12))
+                    if (shield.Hit(bullet.CollisionRect))
                     {
                         bullet.Alive = false;
                     }
@@ -595,6 +610,19 @@ namespace SpaceInvaders.Game
             }
 
             _marchStep = (_marchStep + 1) & 3;
+        }
+
+        private void StartDeathPause()
+        {
+            _deathPauseTimer = 1.0f;   // 1 second freeze
+        }
+
+        private void ClearEnemyBullets()
+        {
+            foreach (var bullet in _enemyBullets)
+                bullet.Alive = false;
+
+            _enemyBullets.Clear();
         }
     }
 }

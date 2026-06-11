@@ -1,5 +1,6 @@
 ﻿using SpaceInvaders.Engine;
 using SpaceInvaders.Graphics;
+using System.Drawing;
 
 namespace SpaceInvaders.Entities
 {
@@ -8,6 +9,8 @@ namespace SpaceInvaders.Entities
         public Sprite Sprite { get; }
         public int Vy;
 
+        public RectangleF CollisionRect => new RectangleF(X, Y, Width, Height);
+        
         public Bullet(float x, float y, int width, int height, int vy)
         {
             X = x;

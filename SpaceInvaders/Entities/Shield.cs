@@ -1,4 +1,6 @@
-﻿namespace SpaceInvaders.Entities
+﻿using System.Drawing;
+
+namespace SpaceInvaders.Entities
 {
     public class Shield
     {
@@ -46,6 +48,29 @@
                     Pixels[px, py] = false;
                 }
             }
+        }
+
+        public bool Hit(RectangleF rect)
+        {
+            int startX = (int)rect.X - X;
+            int startY = (int)rect.Y - Y;
+
+            for (int y = 0; y < rect.Height; y++)
+            {
+                for (int x = 0; x < rect.Width; x++)
+                {
+                    int sx = startX + x;
+                    int sy = startY + y;
+
+                    if (sx >= 0 && sx < Width && sy >= 0 && sy < Height && Pixels[sx, sy])
+                    {
+                        Pixels[sx, sy] = false;
+                        return true;
+                    }
+                }
+            }
+
+            return false;
         }
     }
 }
